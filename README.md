@@ -1,8 +1,10 @@
-# CF-RNN 设计和使用说明
+# CF-RNN 
+
+本代码为论文《Driving Behavior Prediction Considering Cognitive Prior and Driving Context》的CF-LSTM模型代码
 
 ## 1.设计说明
 
-主要在原有F-RNN-EL的基础上加入延时模块；
+在原有F-RNN-EL的基础上加入延时模块；
 
 delayTime.py文件中包含了以下函数：
 
